@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' , sans-serif;
+}
+body{
+    background-color: rgb(15, 20, 18);
+    margin-top: 1%;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin: 40px;
+    height: 60vh;
+}
+
+.box textarea {
+    flex: 1;
+    font-size: 100%;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+.btn {
+    background-color: rgb(18, 138, 159);
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.6rem;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+.action{
+    display:flex;
+    gap: 2rem;
+    justify-content: center;
+  }
